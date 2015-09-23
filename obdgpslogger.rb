@@ -2,7 +2,7 @@ require 'formula'
 
 class Obdgpslogger < Formula
   homepage 'http://icculus.org/obdgpslogger/'
-  url 'http://icculus.org/obdgpslogger/downloads/obdgpslogger-0.16.tar.gz'
+  url 'https://github.com/oesmith/obdgpslogger/archive/master.zip'
   sha1 'a47c79b3c0570ed831f713ebf8c370c6e64b7a6c'
 
   depends_on 'cmake' => :build
